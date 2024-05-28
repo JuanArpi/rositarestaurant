@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Rosita Restaurant</title>
+    <link rel="icon" href="images/logoRR.png" type="image/png">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Font  Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #E7DECD;
+        }
+
+        .contact-bar {
+            background-color: #B1374C !important;
+            font-weight: 600;
+            color: #E7DECD !important;
+        }
+
+        nav .links {
+            font-size: 20px;
+            font-weight: 600;
+            color: #B1374C !important;
+        }
+
+        nav .links:hover {
+            font-size: 20px;
+            font-weight: 600;
+            color: #456990 !important;
+        }
+
+        nav .activo {
+            font-size: 20px;
+            font-weight: 600;
+            color: #456990;
+        }
+
+        nav .activo:hover {
+            font-size: 20px;
+            font-weight: 600;
+            color: #456990 !important;
+        }
+
+        /* SECCION BIENVENIDOS */
+        #bienvenidos {
+            background-image: url('images/fondo-bienvenidos.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 24px;
+            height: 320px;
+            margin-bottom: 40px;
+        }
+
+        #bienvenidos .ttl1 {
+            font-size: 40px;
+            font-weight: 600;
+            color: #E7DECD;
+            line-height: 1;
+        }
+
+        #bienvenidos .ttl2 {
+            font-size: 64px;
+            font-weight: 600;
+            color: #E7DECD;
+            line-height: 1;
+        }
+
+        /* SECCION GALERIA */
+        #galeria{
+            margin-top: 64px;
+            margin-bottom: 64px;
+        }
+
+        #galeria p{
+            max-width: 100%;
+        }
+
+        /* FOOTER */
+        .contact-content {
+            background-color: #B1374C;
+        }
+
+        .contact-text p {
+            font-weight: 600;
+            font-size: 14px;
+            color: #E7DECD;
+            padding: 4px 0px;
+            text-align: end;
+        }
+
+        .copy {
+            background-color: #456990;
+            font-weight: 600;
+            color: #E7DECD;
+            padding: 8px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="contact-bar container-fluid">
+            <div class="container-lg p-0 ">
+                <div class="row align-items-center py-2">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <p class="m-0">Av. San José Mz, A Lote 5 Urb. Sta. Patricia - S.M.P.</p>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-end">
+                        <p class="m-0">Consultas y pedidos: +51 933 714 495</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg container-fluid justify-content-center">
+            <div class="container-lg d-flex justify-content-between align-items-center p-0 mx-2">
+                <a href="index.html"><img src="images/logoRR.png" alt="Logo Rosita Restaurant" class="img-fluid navbar-brand" height="100"
+                    width="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link links" href="index.html" aria-current="page">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link links" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link links" href="menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link activo" href="galeria.html">Galería</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <section class="p-2 text-center d-flex justify-content-center align-items-center" id="bienvenidos">
+            <div class="mask">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="m-0 ttl2">Galería</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="container p-0 d-flex justify-content-center" id="galeria">
+            <article class="row container-lg">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+                    <img src="images/sopa-de-casa-con-verduras.png" class="w-100 shadow-1-strong rounded" alt="sopa-de-casa-con-verduras" />
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+                    <img src="images/refresco.png" class="w-100 shadow-1-strong rounded" alt="refresco" />
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+                    <img src="images/ensalada-de-palta.png" class="w-100 shadow-1-strong rounded" alt="ensalada-de-palta" />
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+                    <img src="images/asado-de-pollo-con-frejoles.png" class="w-100 shadow-1-strong rounded" alt="asado-de-pollo-con-frejoles" />
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+                    <img src="images/vista-de-afuera.png" class="w-100 shadow-1-strong rounded" alt="vista-de-afuera" />
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+                    <img src="images/pollo-a-la-plancha.png" class="w-100 shadow-1-strong rounded" alt="pollo-a-la-plancha" />
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 mb-4 px-2">
+                    <img src="images/fachada-panoramica.png" class="w-100 shadow-1-strong rounded" alt="fachada-panoramica" />
+                </div>
+            </article>
+        </section>
+        
+
+
+
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="contact-content container-fluid">
+            <div class="container-lg p-0">
+                <div class=" d-flex align-items-center justify-content-between py-4">
+                    <div>
+                        <img src="images/logoRRneg.png" alt="Logo Rosita Restaurant Negativo"
+                            class="img-fluid navbar-brand" height="100" width="100">
+                    </div>
+                    <div class=" contact-text">
+                        <p class="m-0">Nos ubicamos en Av. San José Mz, A Lote 5 Urb. Sta. Patricia - S.M.P.</p>
+                        <p class="m-0">Atención de Lunes a Sábado de 12:00 pm a 4:00 pm</p>
+                        <p class="m-0">Consultas y pedidos al +51 933 714 495</p>
+                        <p class="m-0">Pago en Efectivo y Yape</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="copy container-fluid">
+            <div class="container-lg p-0">
+                <div class="flex-column align-items-center text-center">
+                    <p class="m-0">Rosita Restaurant | Todos los derechos reservados 2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
